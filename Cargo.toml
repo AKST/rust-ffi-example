@@ -7,4 +7,6 @@ authors = ["Michael Sproul <micsproul@gmail.com>"]
 name = "rustffi"
 crate-type = ["staticlib"]
 
-[dependencies]
+[dependencies.test-alloc]
+path = "../test-alloc"
+
